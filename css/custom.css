@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    background-color: #eee;
+}
+
+body.login{
+    background-image: url('../images/bg-main.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+img.logo{
+    max-width: 180px;
+}
+
+.btn-blue {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #20A0E1;
+    --bs-btn-border-color: #20A0E1;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #1994D2;
+    --bs-btn-hover-border-color: #1994D2;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #1994D2;
+    --bs-btn-active-border-color: #1994D2;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #20A0E1;
+    --bs-btn-disabled-border-color: #20A0E1;
+}
+
+.header {
+    background: rgb(45,26,6);
+    background: linear-gradient(0deg, rgba(45,26,6,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.arrow{
+    position: absolute;
+    right: 10px;
+    top:5px;;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-image: none;
+    }
+
+    img.mobile{
+        max-width: 240px;
+    }
+  }
