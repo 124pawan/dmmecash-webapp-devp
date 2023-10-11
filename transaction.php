@@ -4,7 +4,7 @@ session_start();
 if (!isset($_SESSION['logged-in'])) {
     die(header('Location: index'));
 }
-$_SESSION['telegram_id'] = '395210768';
+$_SESSION['telegram_id'] = '395210768'; 
 ?>
 <!doctype html>
 <html lang="en">
