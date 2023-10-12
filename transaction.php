@@ -72,9 +72,9 @@ article .shimmer{
 }
 
         </style>
-   </head>
+   </head> 
    <body>
-      <main>
+      <main> 
         <div class="header p-3 mb-4">
             <div class="container">
                 <div class="row justify-content-center">
